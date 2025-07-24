@@ -10,44 +10,50 @@
 <body>
     <main>
         <form action="">
-            <input type="text" autocomplete="off">
+            <input type="text" autocomplete="off" id="valueSearch" placeholder="Enter City">
             <button>
                 <i class="fa-solid fa-magnifying-glass"></i>
             </button>
         </form>
         <div class="result">
-            <div class="name">
-                <div>London</div>
+            <div class="name" id="city">
+                <div class="caption">London</div>
                 <img src="https://flagsapi.com/GB/shiny/32.png" alt="">
             </div>
-            <div class="temperature">
+            <div class="temperature" id="temperature">
                 <img src="http://openweathermap.org/img/wn/10d@4x.png" alt="">
-                <div>
-                    <span>31 &deg;</span>
+                <div class="caption">
+                    <span>31</span>
+                    <span>&deg;</span>
                 </div>
             </div>
-            <div class="description">
+            <p class="description">
                 Overcast Clouds
-            </div>
+            </p>
             <ul>
                 <li>
                     <span>Clouds</span>
                     <i class="fa-solid fa-cloud"></i>
-                    <span>98</span>%
+                    <span id="clouds">98</span>%
                 </li>
                 <li>
                     <span>Humidity</span>
                     <i class="fa-solid fa-droplet"></i>
-                    <span>55</span>%
+                    <span id="humidity">55</span>%
                 </li>
                 <li>
                     <span>Pressure</span>
                     <i class="fa-solid fa-gauge"></i>
-                    <span>1001</span>hPa
+                    <span id="pressure">1001</span>hPa
                 </li>
             </ul>
         </div>
     </main>
+
+
+
+
+
 
     <script src="index.js"></script>
 </body>
