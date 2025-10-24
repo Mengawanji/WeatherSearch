@@ -9,14 +9,14 @@ const form = document.querySelector('form')
 const main = document.querySelector('main')
 
 form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    if(valueSearch.value !== ''){
-        searchWeather();
-    }
+  e.preventDefault()
+  if (valueSearch.value !== '') {
+    searchWeather()
+  }
 })
 
 const API_KEY = '26b9f9391c29b6946fa90a66f4067a56'
-const url = 'https://api.openweathermap.org/data/2.5/weather?units=metric&appid=' + API_KEY;
+const url = 'https://api.openweathermap.org/data/2.5/weather?units=metric&appid=' + API_KEY
 
 const searchWeather = () => {
   fetch(url + '&q=' + valueSearch.value)
