@@ -7,7 +7,7 @@ A simple, responsive weather application that allows users to search for current
 - **Real-time Weather Data**: Get current weather information for any city
 - **Responsive Design**: Works seamlessly on desktop and mobile devices
 - **Clean Interface**: Simple and intuitive user experience
-- **Multiple Data Points**: 
+- **Multiple Data Points**:
   - Temperature (Celsius/Fahrenheit)
   - Weather conditions with icons
   - Humidity levels
@@ -16,7 +16,7 @@ A simple, responsive weather application that allows users to search for current
 
 ## Live Demo
 
-https://weather-search-dusky.vercel.app/
+[View Live Demo](https://weather-search-dusky.vercel.app/)
 
 ## Technologies Used
 
